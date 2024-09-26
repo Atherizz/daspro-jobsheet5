@@ -9,6 +9,7 @@ public class PemilihanHariDenganIf25 {
         Scanner sc = new Scanner(System.in);
 
         int angka;
+        System.out.print("masukkan angka : ");
         angka = sc.nextInt();
 
         if (angka > 0 && angka <= 5) {
